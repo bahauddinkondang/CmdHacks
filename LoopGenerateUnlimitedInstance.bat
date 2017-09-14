@@ -1,4 +1,5 @@
 start chrome -app=https://www.youtube.com/embed/watch?v=wy_q_92oyTM
+timeout 15
 
 :loop2
 
