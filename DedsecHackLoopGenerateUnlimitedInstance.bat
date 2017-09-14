@@ -1,3 +1,5 @@
+msg * We are Dedsec 
+
 start chrome -app=https://www.youtube.com/embed/ukz24LrggmU
 timeout 20
 
