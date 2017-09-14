@@ -21,7 +21,7 @@ msg * I don't think you are clever enough to run TASKKILL /im cmd.exe /f
 
 start
 REM Your directory path here
-start explorer C:\Windows\System32
+REM start explorer C:\Windows\System32
 
 TASKKILL /im explorer.exe
 echo Ooops
