@@ -1,3 +1,3 @@
-msg * Computer aborted shutdown , but who is the computer?
+msg * Computer aborted shutdown , maybe next time I should delete system32
 
 shutdown -a
