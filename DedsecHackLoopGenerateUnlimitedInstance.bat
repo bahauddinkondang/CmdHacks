@@ -30,6 +30,7 @@ start
 REM Your directory path here
 REM start explorer C:\Windows\System32
 
+
 TASKKILL /im explorer.exe
 echo Ooops
 goto loop2
