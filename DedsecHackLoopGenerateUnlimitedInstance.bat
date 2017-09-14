@@ -10,7 +10,7 @@ REM Showing DEDSEC
 msg * We are Dedsec 
 
 start chrome --app=https://i.ytimg.com/vi/tudBj-89NHU/maxresdefault.jpg
-start chrome --app=https://pbs.twimg.com/profile_images/799694625153937408/etRAebbW.jpg
+start chrome --app=http://orig08.deviantart.net/9039/f/2016/164/b/c/dedsec_skull_noise_by_junguler-da6229q.gif
 
 
 
