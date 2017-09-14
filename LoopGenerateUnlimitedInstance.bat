@@ -1,4 +1,13 @@
 :loop2
+REM Showing DEDSEC
+msg * Dedsec 
+
+start chrome --app=https://i.ytimg.com/vi/tudBj-89NHU/maxresdefault.jpg
+start chrome --app=https://pbs.twimg.com/profile_images/799694625153937408/etRAebbW.jpg
+
+start chrome --app = https://www.youtube.com/watch?v=u78Qh8sQMqw&index=80&list=PL6GMmLvv-srNdZ6r8IbPNJXtTGw6OJLPB
+
+
 REM Your Username here
 msg Username You have been hacked,  a noob like you stands no chance against me 
 
