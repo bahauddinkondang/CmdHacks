@@ -32,7 +32,7 @@ msg * I don't think you are clever enough to run TASKKILL /im cmd.exe /f
 
 
 
-start tree
+start 
 REM Your directory path here
 
 
