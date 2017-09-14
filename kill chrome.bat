@@ -1,4 +1,4 @@
-msg * the end of saiya people
+msg * The end of saiya people
 
 TASKKILL /im chrome.exe /f
 TAskkill /im iexplorer.exe /f
