@@ -9,7 +9,7 @@ timeout 20
 REM Showing DEDSEC
 msg * We are Dedsec 
 
-start chrome --app=https://i.ytimg.com/vi/tudBj-89NHU/maxresdefault.jpg
+start chrome --app=https://68.media.tumblr.com/124a855699f59409078f7f23c0f225cc/tumblr_oancbjkgyF1uedxbxo2_500.gif
 start chrome --app=http://orig08.deviantart.net/9039/f/2016/164/b/c/dedsec_skull_noise_by_junguler-da6229q.gif
 
 
