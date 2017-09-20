@@ -1,5 +1,6 @@
-REM place vbs script in shell:startup , if you are somebody as noob as justin chin or people like jeremy lai ting hong, in reality being good in video games like dota/lol doesnt make you any better than a game developer , you wont get what  what I am saying
+REM place vbs script in shell:startup , if you are somebody as noob as justin chin or people like jeremy lai ting hong, you wont get what  what I am saying
 REM Justin Chin plagiarised my coding style some time ago I think, but who cares. This is open source anyway
+REM  in reality being good in video games like dota/lol doesnt make you any better than a game developer ,
 
 :edges
 taskkill /im MicrosoftEdge.exe
