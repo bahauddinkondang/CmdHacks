@@ -1,4 +1,4 @@
-REM STORE NETWORKS IN A TXT FILE at system32
+REM STORE NETWORKS IN A TXT FILE at system32, if access denied , you need admin rights
 cd C:\Windows\System32
 
 netsh wlan show profiles >  network.txt
