@@ -1,7 +1,9 @@
 REM STORE NETWORKS IN A TXT FILE at system32
-C:\Windows\System32>netsh wlan show profiles >  network.txt
+cd C:\Windows\System32
 
-C:\Windows\System32>netsh wlan show profiles name=[your wifi name] key=clear  > password.txt
+netsh wlan show profiles >  network.txt
+
+netsh wlan show profiles name=[your wifi name] key=clear  > password.txt
 
 
 msg * replace your wifiname in this cmd file
