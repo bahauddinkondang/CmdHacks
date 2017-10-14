@@ -1,0 +1,5 @@
+Open with notepad or notepad + to see the cmd code
+
+type help on cmd 
+or 
+shutdown -help for more info

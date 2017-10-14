@@ -1,0 +1,28 @@
+you can use this to replace razer cortex, but you also need to use msconfig to disable some services.
+
+
+to disable services  at startup/processes or at least preventing them from launching at startup,
+use msconfig
+
+press window logo + r,
+then type msconfig 
+
+
+
+or msconfig.msc
+
+
+choose services,
+untick the services you want to prevent from launching,
+
+
+(this only prevents them from launching at startup,
+otherwise , you just need to use task manager 
+or search services on taskbar 
+and disable them 
+
+
+
+To quickly show the desktop or open windows without using the Show desktop icon on the Quick Launch toolbar, you can use one of the following methods:
+Press the Windows logo key+D on your keyboard.
+Right-click the Windows taskbar, and then click Show the Desktop or click Show Open Windows.

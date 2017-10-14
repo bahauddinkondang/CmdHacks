@@ -1,0 +1,20 @@
+Gdrive ahve recently or sometime ago added a new feature to direct download a shared folder without adding them to your own account's Gdrive.
+This is a tutorial meant for amateurs , as far as I know , most of you who gots this link don't even know how to use Gdrive properly
+
+On windows, to direct download a folder
+click the down arrow at the left of a folder to download the folder as a zip file, then extract it using default windows explorer or winrar.
+
+
+In other words, follow these steps to direct download a folder on PC
+1) Click Shared link to folder
+2) Hover your mouse on a folder you desire to download
+3) Down arrow shows up, move your mouse to right and CLICK IT.
+4) Folder will be compressed as a zip file and downloaded
+5)Right click the downloaded zip file and click extract all
+alternatively, download a software like winrar or 7zip and extract the file.
+
+
+On windows, to view any files
+1) Click a folder
+2) Click the files you want to view
+

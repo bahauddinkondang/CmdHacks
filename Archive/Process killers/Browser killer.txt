@@ -1,0 +1,39 @@
+My computer got infected by a virus that prevents me from opening any browsers!!!!!
+Take a look
+
+If you really believed what I wrote earlier,
+you just got fooled
+
+I created a cmd or bat file that will kill all your browser processes,
+except that it only kills internet explorer , firefox and chrome.
+
+Theres a loop version of it and a version of it without loop.
+
+
+
+Rebooted pc
+
+let me show you a version of the cmd file I created without loop
+Here's the cmd code
+
+
+Now, I 'll show you how the looped version of the cmd/bat file looked like
+It automatically delete the browser processes so you can't use it as long 
+as the cmd window is open
+
+
+But if you hide it, you can't close its window so it'll run in background forever until you find a 
+way to kill its process.
+
+You can also create custom process killer by just editing the cmd file,
+lets say you want to kill notepad.exe.
+Follow me
+
+copy and paste any of the taskkill cmd
+
+and  type the app / exe process you want to destroy
+for now, i 'll use notepad.exe
+
+
+You can also hide the cmd window by dragging it to the or hidden browser .exe
+The cmd window will only appear for 1 second on some occasions

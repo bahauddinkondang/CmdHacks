@@ -1,0 +1,1 @@
+shutdown -s -ts 600
