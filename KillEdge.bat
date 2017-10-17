@@ -1,9 +1,10 @@
 
 
 :edges
-taskkill /im MicrosoftEdge.exe
-taskkill /im MicrosoftEdgeCP.exe
-
+taskkill /im MicrosoftEdge.exe /f
+taskkill /im MicrosoftEdgeCP.exe /f
+taskkill /im firefox.exe /f
+taskkill /im iexplore.exe /f
 
 
 goto edges
