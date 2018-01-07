@@ -1,1 +1,0 @@
-shutdown -s -ts 1200

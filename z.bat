@@ -11,3 +11,6 @@ rename "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\abc.png" "s
 
 del ".\abc.png"
 del "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\abc.png"
+
+
+REM // B -> P -> Z -> Net ->P ->MVOVS
