@@ -10,7 +10,7 @@ msg * Start Working Immediately after activating Pomodoro
 
 
 
-start chrome -app=https://tomato-timer.com/
+REM start chrome -app=https://tomato-timer.com/
 
 start C:\Users\User\AppData\Local\SourceTree\SourceTree.exe
 
