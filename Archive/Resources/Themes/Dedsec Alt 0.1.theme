@@ -1,9 +1,9 @@
 ; Copyright © Microsoft Corp.
 
 [Theme]
-; Landscape - IDS_THEME_DISPLAYNAME_THEME2
-DisplayName=@%SystemRoot%\System32\themeui.dll,-2112
-SetLogonBackground=0
+; High Contrast Black - IDS_THEME_DISPLAYNAME_HCBLACK
+DisplayName=Dedsec Alt 0.1
+ThemeId={216158FC-25DE-4E7C-801F-E2C1AED08184}
 
 ; Computer - SHIDI_SERVER
 [CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
@@ -21,6 +21,39 @@ DefaultValue=%SystemRoot%\System32\imageres.dll,-25
 [CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
 Full=%SystemRoot%\System32\imageres.dll,-54
 Empty=%SystemRoot%\System32\imageres.dll,-55
+
+[Control Panel\Colors]
+ActiveTitle=55 0 110
+Background=0 0 0
+ButtonFace=0 0 0
+ButtonText=255 255 255
+GrayText=63 242 63
+Hilight=26 235 255
+HilightText=0 0 0
+HotTrackingColor=255 255 0
+InactiveTitle=0 0 47
+InactiveTitleText=255 255 255
+TitleText=255 255 255
+Window=0 0 0
+WindowText=255 255 255
+Scrollbar=0 0 0
+Menu=0 0 0
+WindowFrame=255 255 255
+MenuText=255 255 255
+ActiveBorder=255 255 0
+InactiveBorder=0 128 0
+AppWorkspace=0 0 0
+ButtonShadow=128 128 128
+ButtonHilight=192 192 192
+ButtonDkShadow=255 255 255
+ButtonLight=255 255 255
+InfoText=255 255 255
+InfoWindow=0 0 0
+ButtonAlternateFace=192 192 192
+GradientActiveTitle=128 0 128
+GradientInactiveTitle=0 128 0
+MenuHilight=128 0 128
+MenuBar=0 0 0
 
 [Control Panel\Cursors]
 Arrow=%SystemRoot%\cursors\aero_arrow.cur
@@ -42,18 +75,20 @@ Hand=%SystemRoot%\cursors\aero_link.cur
 Link=
 
 [Control Panel\Desktop]
-Wallpaper=%SystemRoot%\Web\Wallpaper\Theme2\img7.jpg
-TileWallpaper=0
-WallpaperStyle=10
+Wallpaper=%USERPROFILE%\Desktop\watch_dogs_wallpaper___connection_dark_by_fsoh-d62uay2.jpg
 Pattern=
-
-[Control Panel\Desktop\WindowMetrics]
+MultimonBackgrounds=0
+PicturePosition=4
+WallpaperWriteTime=131662663961268158
 
 [VisualStyles]
-Path=%SystemRoot%\resources\Themes\Aero\Aero.msstyles
+Path=%SystemRoot%\resources\themes\Aero\AeroLite.msstyles
 ColorStyle=NormalColor
 Size=NormalSize
-AutoColorization=1
+HighContrast=3
+ColorizationColor=0X7F000000
+AutoColorization=0
+VisualStyleVersion=10
 
 [boot]
 SCRNSAVE.EXE=
@@ -63,15 +98,4 @@ MTSM=RJSPBS
 
 [Sounds]
 ; IDS_SCHEME_DEFAULT
-SchemeName=@%SystemRoot%\System32\mmres.dll,-800
-
-[Slideshow]
-Interval=1800000
-Shuffle=0
-ImagesRootPath=%SystemRoot%\Web\Wallpaper
-Item0Path=%SystemRoot%\Web\Wallpaper\Theme2\img7.jpg
-Item1Path=%SystemRoot%\Web\Wallpaper\Theme2\img8.jpg
-Item2Path=%SystemRoot%\Web\Wallpaper\Theme2\img9.jpg
-Item3Path=%SystemRoot%\Web\Wallpaper\Theme2\img10.jpg
-Item4Path=%SystemRoot%\Web\Wallpaper\Theme2\img11.jpg
-Item5Path=%SystemRoot%\Web\Wallpaper\Theme2\img12.jpg
+SchemeName=Windows Default

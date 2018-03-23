@@ -2,8 +2,8 @@
 
 [Theme]
 ; Windows - IDS_THEME_DISPLAYNAME_AERO
-DisplayName=@%SystemRoot%\System32\themeui.dll,-2013
-SetLogonBackground=0
+DisplayName=Dedsec V0.2
+ThemeId={1AA7C202-C2DB-4DE0-96FB-BF67BC941933}
 
 ; Computer - SHIDI_SERVER
 [CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
@@ -25,10 +25,8 @@ Empty=%SystemRoot%\System32\imageres.dll,-55
 [Control Panel\Cursors]
 AppStarting=%SystemRoot%\cursors\aero_working.ani
 Arrow=%SystemRoot%\cursors\aero_arrow.cur
-Crosshair=
 Hand=%SystemRoot%\cursors\aero_link.cur
 Help=%SystemRoot%\cursors\aero_helpsel.cur
-IBeam=
 No=%SystemRoot%\cursors\aero_unavail.cur
 NWPen=%SystemRoot%\cursors\aero_pen.cur
 SizeAll=%SystemRoot%\cursors\aero_move.cur
@@ -38,21 +36,24 @@ SizeNWSE=%SystemRoot%\cursors\aero_nwse.cur
 SizeWE=%SystemRoot%\cursors\aero_ew.cur
 UpArrow=%SystemRoot%\cursors\aero_up.cur
 Wait=%SystemRoot%\cursors\aero_busy.ani
-DefaultValue=Windows Aero
-DefaultValue.MUI=@main.cpl,-1020
+DefaultValue=Windows Default
+Crosshair=
+IBeam=
 
 [Control Panel\Desktop]
-Wallpaper=%SystemRoot%\web\wallpaper\Windows\img0.jpg
-TileWallpaper=0
-WallpaperStyle=10
+Wallpaper=%USERPROFILE%\Desktop\watch_dogs_wallpaper___connection_dark_by_fsoh-d62uay2.jpg
 Pattern=
+MultimonBackgrounds=0
+PicturePosition=4
+WallpaperWriteTime=131662663961268158
 
 [VisualStyles]
-Path=%ResourceDir%\Themes\Aero\Aero.msstyles
+Path=%SystemRoot%\resources\themes\Aero\Aero.msstyles
 ColorStyle=NormalColor
 Size=NormalSize
 AutoColorization=0
-ColorizationColor=0XC40078D7
+ColorizationColor=0XC44C4A48
+VisualStyleVersion=10
 
 [boot]
 SCRNSAVE.EXE=
@@ -62,5 +63,37 @@ MTSM=RJSPBS
 
 [Sounds]
 ; IDS_SCHEME_DEFAULT
-SchemeName=@%SystemRoot%\System32\mmres.dll,-800
+SchemeName=Windows Default
 
+[Control Panel\Colors]
+Scrollbar=200 200 200
+Background=0 0 0
+ActiveTitle=153 180 209
+InactiveTitle=191 205 219
+Menu=240 240 240
+Window=255 255 255
+WindowFrame=100 100 100
+MenuText=0 0 0
+WindowText=0 0 0
+TitleText=0 0 0
+ActiveBorder=180 180 180
+InactiveBorder=244 247 252
+AppWorkspace=171 171 171
+Hilight=51 153 255
+HilightText=255 255 255
+ButtonFace=240 240 240
+ButtonShadow=160 160 160
+GrayText=109 109 109
+ButtonText=0 0 0
+InactiveTitleText=0 0 0
+ButtonHilight=255 255 255
+ButtonDkShadow=105 105 105
+ButtonLight=227 227 227
+InfoText=0 0 0
+InfoWindow=255 255 225
+ButtonAlternateFace=0 0 0
+HotTrackingColor=0 102 204
+GradientActiveTitle=185 209 234
+GradientInactiveTitle=215 228 242
+MenuHilight=51 153 255
+MenuBar=240 240 240
