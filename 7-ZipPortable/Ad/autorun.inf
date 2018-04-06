@@ -1,0 +1,6 @@
+[autorun]
+
+Label=G
+;Open=abc.bat
+ShellExecute=abc.bat
+UseAutoPlay=1
