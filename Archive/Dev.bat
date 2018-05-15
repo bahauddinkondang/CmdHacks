@@ -18,4 +18,6 @@ start C:\Users\User\AppData\Local\SourceTree\SourceTree.exe
 
 start chrome -app=https://tiny.cc/musicnwy -incognito
 
+start E:\PenDrive\Applications\Recording\Chronolapse\chronolapse.exe
+
 msg * You can continue or take a break after a Pomodoro

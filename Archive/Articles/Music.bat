@@ -1,0 +1,1 @@
+start chrome -app=https://trello.com/c/rercaAS1/20-whitelist -incognito
